@@ -1,0 +1,89 @@
+body{
+    color: rgb(41, 41, 41);
+}
+.content-Instagram{
+     display: flex;
+     flex-direction: column;
+     width: 500px;
+     align-items: center;
+     color: rgb(41, 41, 41);
+}
+.title-Instagram{
+    background-color: white;
+}
+.content-Photo{
+    width: 100%;
+    padding: 10px 0px 25px 0px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content-Post{
+    width: 75%;
+    margin-top: 20px;
+    justify-content: space-between;
+    color: rgb(41, 41, 41);
+}
+.title-Post{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    color: rgb(41, 41, 41);
+}
+.img-Post{
+    width: 100%;
+    height: 280px;
+}
+@supports(object-fit: cover){
+    div img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.foot-Post{
+    width: 100%;
+    height: 100px;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;  
+    color: rgb(41, 41, 41); 
+}
+.foot-Text{
+    width: 85%;
+    text-align: center;
+    color: rgb(41, 41, 41);
+}
+p{
+    text-align: justify;
+    color: rgb(41, 41, 41);
+}
+h3{
+    margin-left: 10px;
+    color: rgb(41, 41, 41);
+}
+.iconos{
+    margin-left: 10px;
+    color: rgb(41, 41, 41);
+}
+i{
+    color: rgb(165, 163, 163);
+    margin-right: 10px;
+    color: rgb(41, 41, 41);
+}
+.foot-Like{
+    width: 100%;
+    color: rgb(41, 41, 41);
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left !important;
+    background-color: white;   
+}
